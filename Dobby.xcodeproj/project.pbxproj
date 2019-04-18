@@ -7,67 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DC18FB9C1BF0948900768632 /* Dobby.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = DC7F6AF81AD8291800CCBF6D /* Dobby.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DC3CFE781ADE895E004728C2 /* SwiftExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3CFE771ADE895E004728C2 /* SwiftExtensions.swift */; };
-		DC3CFE791ADE895E004728C2 /* SwiftExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3CFE771ADE895E004728C2 /* SwiftExtensions.swift */; };
 		DC457AD91B5552CA00919032 /* Matcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC457AD81B5552CA00919032 /* Matcher.swift */; };
-		DC457ADA1B5552CA00919032 /* Matcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC457AD81B5552CA00919032 /* Matcher.swift */; };
 		DC7F6AFE1AD8291800CCBF6D /* Dobby.h in Headers */ = {isa = PBXBuildFile; fileRef = DC7F6AFD1AD8291800CCBF6D /* Dobby.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC7F6B041AD8291800CCBF6D /* Dobby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7F6AF81AD8291800CCBF6D /* Dobby.framework */; };
 		DC7F6B1E1AD82B8C00CCBF6D /* Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7F6B1D1AD82B8C00CCBF6D /* Stub.swift */; };
 		DC7F6B201AD82D3800CCBF6D /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7F6B1F1AD82D3800CCBF6D /* Mock.swift */; };
-		DC7F6B251AD830A500CCBF6D /* MockSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7F6B241AD830A500CCBF6D /* MockSpec.swift */; };
-		DC7F6B271AD830B500CCBF6D /* StubSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7F6B261AD830B500CCBF6D /* StubSpec.swift */; };
 		DC83356C1B56661900569709 /* Disposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC83356B1B56661900569709 /* Disposable.swift */; };
-		DC83356D1B56661900569709 /* Disposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC83356B1B56661900569709 /* Disposable.swift */; };
-		DC8452231ADBF5CC006AC5D4 /* Dobby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC8452181ADBF5CC006AC5D4 /* Dobby.framework */; };
-		DC84523E1ADBF73C006AC5D4 /* Dobby.h in Headers */ = {isa = PBXBuildFile; fileRef = DC7F6AFD1AD8291800CCBF6D /* Dobby.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC84523F1ADBF73C006AC5D4 /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7F6B1F1AD82D3800CCBF6D /* Mock.swift */; };
-		DC8452401ADBF73C006AC5D4 /* Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7F6B1D1AD82B8C00CCBF6D /* Stub.swift */; };
-		DC8452421ADBF743006AC5D4 /* MockSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7F6B241AD830A500CCBF6D /* MockSpec.swift */; };
-		DC8452431ADBF743006AC5D4 /* StubSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7F6B261AD830B500CCBF6D /* StubSpec.swift */; };
-		DCDDA9301BED650100BB5228 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCDDA92F1BED650100BB5228 /* Nimble.framework */; };
-		DCDDA9321BED655500BB5228 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCDDA9311BED655500BB5228 /* Quick.framework */; };
-		DCDDA9351BED657C00BB5228 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCDDA92F1BED650100BB5228 /* Nimble.framework */; };
-		DCDDA9361BED657C00BB5228 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCDDA9311BED655500BB5228 /* Quick.framework */; };
-		DCDDA9371BED658600BB5228 /* Nimble.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = DCDDA92F1BED650100BB5228 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		DCDDA9381BED658600BB5228 /* Quick.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = DCDDA9311BED655500BB5228 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		DCE4080E1B6161000009E0B4 /* MatcherSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE4080D1B6161000009E0B4 /* MatcherSpec.swift */; };
-		DCE4080F1B6161000009E0B4 /* MatcherSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE4080D1B6161000009E0B4 /* MatcherSpec.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		DC7F6B051AD8291800CCBF6D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DC7F6AEF1AD8291800CCBF6D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DC7F6AF71AD8291800CCBF6D;
-			remoteInfo = Dobby;
-		};
-		DC8452241ADBF5CC006AC5D4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DC7F6AEF1AD8291800CCBF6D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DC8452171ADBF5CC006AC5D4;
-			remoteInfo = "Dobby-macOS";
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		DCDDA9241BED61E900BB5228 /* Copy Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				DCDDA9371BED658600BB5228 /* Nimble.framework in Copy Frameworks */,
-				DCDDA9381BED658600BB5228 /* Quick.framework in Copy Frameworks */,
-				DC18FB9C1BF0948900768632 /* Dobby.framework in Copy Frameworks */,
-			);
-			name = "Copy Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		DC3CFE771ADE895E004728C2 /* SwiftExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftExtensions.swift; sourceTree = "<group>"; };
@@ -75,15 +21,12 @@
 		DC7F6AF81AD8291800CCBF6D /* Dobby.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dobby.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC7F6AFC1AD8291800CCBF6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC7F6AFD1AD8291800CCBF6D /* Dobby.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dobby.h; sourceTree = "<group>"; };
-		DC7F6B031AD8291800CCBF6D /* DobbyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DobbyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC7F6B091AD8291800CCBF6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC7F6B1D1AD82B8C00CCBF6D /* Stub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stub.swift; sourceTree = "<group>"; };
 		DC7F6B1F1AD82D3800CCBF6D /* Mock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mock.swift; sourceTree = "<group>"; };
 		DC7F6B241AD830A500CCBF6D /* MockSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockSpec.swift; sourceTree = "<group>"; };
 		DC7F6B261AD830B500CCBF6D /* StubSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StubSpec.swift; sourceTree = "<group>"; };
 		DC83356B1B56661900569709 /* Disposable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Disposable.swift; sourceTree = "<group>"; };
-		DC8452181ADBF5CC006AC5D4 /* Dobby.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dobby.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC8452221ADBF5CC006AC5D4 /* DobbyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DobbyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCDDA8EB1BED4A7600BB5228 /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
 		DCDDA8ED1BED4A7600BB5228 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		DCDDA8EE1BED4A7600BB5228 /* Profile.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Profile.xcconfig; sourceTree = "<group>"; };
@@ -122,33 +65,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC7F6B001AD8291800CCBF6D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DCDDA9351BED657C00BB5228 /* Nimble.framework in Frameworks */,
-				DCDDA9361BED657C00BB5228 /* Quick.framework in Frameworks */,
-				DC7F6B041AD8291800CCBF6D /* Dobby.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DC8452141ADBF5CC006AC5D4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DC84521F1ADBF5CC006AC5D4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DCDDA9301BED650100BB5228 /* Nimble.framework in Frameworks */,
-				DCDDA9321BED655500BB5228 /* Quick.framework in Frameworks */,
-				DC8452231ADBF5CC006AC5D4 /* Dobby.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -174,9 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				DC7F6AF81AD8291800CCBF6D /* Dobby.framework */,
-				DC7F6B031AD8291800CCBF6D /* DobbyTests.xctest */,
-				DC8452181ADBF5CC006AC5D4 /* Dobby.framework */,
-				DC8452221ADBF5CC006AC5D4 /* DobbyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -324,14 +237,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC8452151ADBF5CC006AC5D4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DC84523E1ADBF73C006AC5D4 /* Dobby.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -353,61 +258,6 @@
 			productReference = DC7F6AF81AD8291800CCBF6D /* Dobby.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DC7F6B021AD8291800CCBF6D /* Dobby-iOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DC7F6B111AD8291800CCBF6D /* Build configuration list for PBXNativeTarget "Dobby-iOSTests" */;
-			buildPhases = (
-				DC7F6AFF1AD8291800CCBF6D /* Sources */,
-				DC7F6B001AD8291800CCBF6D /* Frameworks */,
-				DC7F6B011AD8291800CCBF6D /* Resources */,
-				DCDDA9241BED61E900BB5228 /* Copy Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DC7F6B061AD8291800CCBF6D /* PBXTargetDependency */,
-			);
-			name = "Dobby-iOSTests";
-			productName = DobbyTests;
-			productReference = DC7F6B031AD8291800CCBF6D /* DobbyTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		DC8452171ADBF5CC006AC5D4 /* Dobby-macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DC84522B1ADBF5CC006AC5D4 /* Build configuration list for PBXNativeTarget "Dobby-macOS" */;
-			buildPhases = (
-				DC8452131ADBF5CC006AC5D4 /* Sources */,
-				DC8452141ADBF5CC006AC5D4 /* Frameworks */,
-				DC8452151ADBF5CC006AC5D4 /* Headers */,
-				DC8452161ADBF5CC006AC5D4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Dobby-macOS";
-			productName = "Dobby-macOS";
-			productReference = DC8452181ADBF5CC006AC5D4 /* Dobby.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DC8452211ADBF5CC006AC5D4 /* Dobby-macOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DC84522E1ADBF5CC006AC5D4 /* Build configuration list for PBXNativeTarget "Dobby-macOSTests" */;
-			buildPhases = (
-				DC84521E1ADBF5CC006AC5D4 /* Sources */,
-				DC84521F1ADBF5CC006AC5D4 /* Frameworks */,
-				DC8452201ADBF5CC006AC5D4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DC8452251ADBF5CC006AC5D4 /* PBXTargetDependency */,
-			);
-			name = "Dobby-macOSTests";
-			productName = "Dobby-macOSTests";
-			productReference = DC8452221ADBF5CC006AC5D4 /* DobbyTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -420,19 +270,7 @@
 				TargetAttributes = {
 					DC7F6AF71AD8291800CCBF6D = {
 						CreatedOnToolsVersion = 6.3;
-						LastSwiftMigration = 0800;
-					};
-					DC7F6B021AD8291800CCBF6D = {
-						CreatedOnToolsVersion = 6.3;
-						LastSwiftMigration = 0800;
-					};
-					DC8452171ADBF5CC006AC5D4 = {
-						CreatedOnToolsVersion = 6.3;
-						LastSwiftMigration = 0800;
-					};
-					DC8452211ADBF5CC006AC5D4 = {
-						CreatedOnToolsVersion = 6.3;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -448,37 +286,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DC8452171ADBF5CC006AC5D4 /* Dobby-macOS */,
-				DC8452211ADBF5CC006AC5D4 /* Dobby-macOSTests */,
 				DC7F6AF71AD8291800CCBF6D /* Dobby-iOS */,
-				DC7F6B021AD8291800CCBF6D /* Dobby-iOSTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		DC7F6AF61AD8291800CCBF6D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DC7F6B011AD8291800CCBF6D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DC8452161ADBF5CC006AC5D4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DC8452201ADBF5CC006AC5D4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -500,52 +314,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC7F6AFF1AD8291800CCBF6D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DCE4080E1B6161000009E0B4 /* MatcherSpec.swift in Sources */,
-				DC7F6B251AD830A500CCBF6D /* MockSpec.swift in Sources */,
-				DC7F6B271AD830B500CCBF6D /* StubSpec.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DC8452131ADBF5CC006AC5D4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DC457ADA1B5552CA00919032 /* Matcher.swift in Sources */,
-				DC3CFE791ADE895E004728C2 /* SwiftExtensions.swift in Sources */,
-				DC83356D1B56661900569709 /* Disposable.swift in Sources */,
-				DC8452401ADBF73C006AC5D4 /* Stub.swift in Sources */,
-				DC84523F1ADBF73C006AC5D4 /* Mock.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DC84521E1ADBF5CC006AC5D4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DCE4080F1B6161000009E0B4 /* MatcherSpec.swift in Sources */,
-				DC8452421ADBF743006AC5D4 /* MockSpec.swift in Sources */,
-				DC8452431ADBF743006AC5D4 /* StubSpec.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		DC7F6B061AD8291800CCBF6D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DC7F6AF71AD8291800CCBF6D /* Dobby-iOS */;
-			targetProxy = DC7F6B051AD8291800CCBF6D /* PBXContainerItemProxy */;
-		};
-		DC8452251ADBF5CC006AC5D4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DC8452171ADBF5CC006AC5D4 /* Dobby-macOS */;
-			targetProxy = DC8452241ADBF5CC006AC5D4 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		DC7F6B0C1AD8291800CCBF6D /* Debug */ = {
@@ -592,7 +361,9 @@
 				);
 				INFOPLIST_FILE = Dobby/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				SWIFT_VERSION = 3.0;
+				SDKROOT = iphoneos;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -609,103 +380,9 @@
 				);
 				INFOPLIST_FILE = Dobby/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		DC7F6B121AD8291800CCBF6D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCDDA8F81BED4A7600BB5228 /* iOS-Application.xcconfig */;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SDKROOT)/Developer/Library/Frameworks",
-				);
-				INFOPLIST_FILE = DobbyTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(PROJECT_NAME)Tests";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		DC7F6B131AD8291800CCBF6D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCDDA8F81BED4A7600BB5228 /* iOS-Application.xcconfig */;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SDKROOT)/Developer/Library/Frameworks",
-				);
-				INFOPLIST_FILE = DobbyTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(PROJECT_NAME)Tests";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		DC84522C1ADBF5CC006AC5D4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCDDA9001BED4A7600BB5228 /* Mac-Framework.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = NO;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Dobby/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		DC84522D1ADBF5CC006AC5D4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCDDA9001BED4A7600BB5228 /* Mac-Framework.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = NO;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Dobby/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		DC84522F1ADBF5CC006AC5D4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCDDA8FD1BED4A7600BB5228 /* Mac-Application.xcconfig */;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				INFOPLIST_FILE = DobbyTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(PROJECT_NAME)Tests";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		DC8452301ADBF5CC006AC5D4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCDDA8FD1BED4A7600BB5228 /* Mac-Application.xcconfig */;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				INFOPLIST_FILE = DobbyTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(PROJECT_NAME)Tests";
-				SWIFT_VERSION = 3.0;
+				SDKROOT = iphoneos;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -726,33 +403,6 @@
 			buildConfigurations = (
 				DC7F6B0F1AD8291800CCBF6D /* Debug */,
 				DC7F6B101AD8291800CCBF6D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DC7F6B111AD8291800CCBF6D /* Build configuration list for PBXNativeTarget "Dobby-iOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DC7F6B121AD8291800CCBF6D /* Debug */,
-				DC7F6B131AD8291800CCBF6D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DC84522B1ADBF5CC006AC5D4 /* Build configuration list for PBXNativeTarget "Dobby-macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DC84522C1ADBF5CC006AC5D4 /* Debug */,
-				DC84522D1ADBF5CC006AC5D4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DC84522E1ADBF5CC006AC5D4 /* Build configuration list for PBXNativeTarget "Dobby-macOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DC84522F1ADBF5CC006AC5D4 /* Debug */,
-				DC8452301ADBF5CC006AC5D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
